@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "java-coding-practice:latest"
+        DOCKER_IMAGE = "java-coding-practice"
         DOCKER_HUB = credentials('DockerHub-Credentials') // Jenkins credentials ID
     }
 
